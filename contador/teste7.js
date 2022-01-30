@@ -11,7 +11,7 @@ var check = false;
 function inicia(){
     if (check == false){
     var time1 = setInterval(function(){start()}, 2000);
-    var time2 = setTimeout(function(){preto()}, 23200);
+    var time2 = setTimeout(function(){preto()}, 24200);
     var contador = 10;
 
     function start(){
