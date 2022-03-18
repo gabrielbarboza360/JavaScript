@@ -10,8 +10,8 @@ var check = false;
 
 function inicia(){
     if (check == false){
-    var time1 = setInterval(function(){start()}, 2000);
-    var time2 = setTimeout(function(){preto()}, 24200);
+    var time1 = setInterval(function(){start()}, 1500);
+    var time2 = setTimeout(function(){preto()}, 1920);
     var contador = 10;
 
     function start(){
